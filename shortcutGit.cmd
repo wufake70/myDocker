@@ -3,7 +3,7 @@ chcp 65001 >nul
 color 2
 git add .
 git commit . -m"%date% %time%"
-git push -u origin main
+git push origin main
 set /p input=Go to Git[Y/N]:
 
 if "%input%"=="y" (goto GoToGit)
